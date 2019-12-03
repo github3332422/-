@@ -1,0 +1,24 @@
+# 数据库配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: zq
+    password: admin
+    url: jdbc:mysql://123.56.25.127/db_sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+
+server:
+  context-path: /sell
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+##  使用默认的名字
+#  path: /var/log/tomcat/
+##  自己设置名字
+#  file: /var/log/tomcat/sell.log
+##  设置日志级别
+##  level: debug
+#  level:
+#    com.example.loggerTest: debug
+
